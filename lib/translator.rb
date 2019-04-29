@@ -9,7 +9,6 @@ def load_library(file)
   emojipedia.each do |meaning, emoticon|
     library["get_meaning"] ||= {}
     library["get_meaning"][emoticon[1]] = meaning 
-    
     library["get_emoticon"] ||= {}
     library["get_emoticon"[emoticon[0]] = emoticon[1]
   end
