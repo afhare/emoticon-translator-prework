@@ -16,8 +16,8 @@ def load_library(file)
 end
 
 def get_japanese_emoticon(file, emoticon)
-  file = YAML
-  load_library(file)
+  translation = load_library(file)
+  search = translation
   
   # code goes here
 end
