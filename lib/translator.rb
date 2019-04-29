@@ -6,7 +6,8 @@ require "yaml"
 def load_library
   library = {}
   library[get_meaning] => {}
-  library[]
+  library[get_emoticon] => {}
+  
   library 
 end
 
