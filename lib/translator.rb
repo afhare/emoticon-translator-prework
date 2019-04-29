@@ -3,10 +3,12 @@ require "pry"
 require "yaml"
 
 
-def load_library
+def load_library(file)
   library = {}
-  library[get_meaning] => {}
-  library[get_emoticon] => {}
+  emojipedia = YAML.load_file(file)
+  emojipedia.each do |meaning, emoticon|
+    library["get_meaning"] => {}
+    library["get_emoticon"] => {}
   
   library 
 end
