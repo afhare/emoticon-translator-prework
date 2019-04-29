@@ -5,8 +5,8 @@ require "yaml"
 
 def load_library
   library = {}
-  library[get_meaning]
-  
+  library[get_meaning] => {}
+  library[]
   library 
 end
 
